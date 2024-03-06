@@ -1,0 +1,70 @@
+.gallery-portfolio-container {
+  text-align: center;
+  background-color: #161616;
+  margin:0%;
+  overflow: hidden;
+}
+
+.gallery-portfolio-title {
+  font-size: 24px;
+  padding-top: 20px ;
+  margin-bottom: 20px;
+  color: #fff; /* Text color */
+}
+
+.gallery-portfolio-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.gallery-portfolio-image {
+  width: calc(33.33% - 20px); /* Adjust based on the number of images per row */
+  max-width: 300px; /* Limit image width */
+  border-radius: 10px;
+  background-color: #282828; /* Background color */
+  margin-bottom: 20px;
+  overflow: hidden; /* Hide overflowing content */
+}
+
+.gallery-portfolio-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio and fill container */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gallery-portfolio-image:hover img {
+  transform: scale(2.05); /* Enlarge image on hover */
+}
+
+.gallery-explore-button:hover {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.gallery-explore-button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .gallery-portfolio-image {
+    width: calc(50% - 10px); /* Adjust for two images per row */
+    
+  }
+
+}

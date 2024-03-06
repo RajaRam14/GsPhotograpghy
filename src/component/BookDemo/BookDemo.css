@@ -1,0 +1,116 @@
+
+.book-live-demo-container{
+    background-color: #161616;
+    overflow: hidden;
+}
+.Book-parent{
+    display: flex;
+}
+.BookDemo-title{
+    width: 100%;
+    background-color: #161616;
+   text-align: center;
+}
+.Book-left{
+    width: 40%;
+}
+.Book-right{
+    width: 60%;
+}
+
+.BookCalender{
+    margin: 10% 10% 10% 30%;
+    border-radius: 10px;
+    background-color: #282828;
+    color:bisque
+
+}
+.BookServiceButtons{
+    margin-top: 5%;
+}
+
+.BookServiceSelect{
+  text-align: center;
+  width: 260px;
+  padding: 12px;
+  border-radius: 10px;
+  color: bisque;
+  background-color: #282828;
+}
+
+
+.BookServiceTime{
+    text-align: center;
+    width: 260px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 07px;
+    color: bisque;
+    background-color: #282828;
+  }
+  
+.BookDemoButton{
+    margin-top: 18px;
+    padding: 5px 20px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: black;
+    color: beige;
+}
+
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    .book-live-demo-container {
+        padding: 10px;
+    }
+    .BookCalender{
+         margin: 2% 2% 2% 2%;
+
+    }
+    .Book-left{
+        width: 100%;
+    }
+    .Book-right{
+        width: 100%;
+    }
+    .Book-parent{
+        display: flex;
+        flex-direction:column;
+    }
+
+    .BookServiceTime{
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .book-live-demo {
+        justify-content: center;
+    }
+    .liveDemoQuotes{
+        display: none;
+    }
+}
+.liveDemoQuotes {
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 08%;
+  }
+  
+  .liveDemoQuotes span {
+    display: inline-block;
+    animation: color-change 5s infinite alternate;
+  }
+  
+  @keyframes color-change {
+    0% { color: #ff6b6b; } /* Red */
+    50% { color: #74b9ff; } /* Blue */
+    100% { color: #55efc4; } /* Green */
+  }
+  
+ 

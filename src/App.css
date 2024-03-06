@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Big size font class */
+.big-font {
+  font-size: 40px; /* Adjust size as needed */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Very small size font class */
+.very-small-font {
+  font-size: 12px; /* Adjust size as needed */
+}
+.padding-top{
+  padding-top: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+/* White shades */
+.white { color: white; }
+.snow { color: snow; }
+.honeydew { color: honeydew; }
+.seashell { color: seashell; }
+.floralwhite { color: floralwhite; }
+.oldlace { color: oldlace; }
+.ivory { color: ivory; }
+.mintcream { color: mintcream; }
+.ghostwhite { color: ghostwhite; }
+.antiquewhite { color: antiquewhite; }
+.papayawhip { color: papayawhip; }
+.blanchedalmond { color: blanchedalmond; }
+.bisque { color: bisque; }
+.peachpuff { color: peachpuff; }
+.navajowhite { color: navajowhite; }
+.moccasin { color: moccasin; }
+.cornsilk { color: cornsilk; }
+.lightyellow { color: lightyellow; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Yellow */
+.yellow { color: yellow; }
+.lightgoldenrodyellow { color: lightgoldenrodyellow; }
+.lemonchiffon { color: lemonchiffon; }
+.lightyellow { color: lightyellow; }
+.palegoldenrod { color: palegoldenrod; }
+.khaki { color: khaki; }
+.darkkhaki { color: darkkhaki; }
+
+/* Purple */
+.purple { color: purple; }
+.mediumpurple { color: mediumpurple; }
+.darkorchid { color: darkorchid; }
+.darkviolet { color: darkviolet; }
+.blueviolet { color: blueviolet; }
+.darkmagenta { color: darkmagenta; }
+.indigo { color: indigo; }
+.mediumslateblue { color: mediumslateblue; }
+.slateblue { color: slateblue; }
+.mediumorchid { color: mediumorchid; }
+.thistle { color: thistle; }
+.plum { color: plum; }
+.lavenderblush { color: lavenderblush; }
+.pink { color: pink; }

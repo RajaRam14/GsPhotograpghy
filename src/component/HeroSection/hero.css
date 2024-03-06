@@ -1,0 +1,78 @@
+/* WeddingPhotography.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
+  }
+  
+  #hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  #text-section {
+    width: 40%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+  #text-section h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  #text-section .button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  #text-section button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #image-section {
+    width: 50%;
+    overflow: hidden;
+}
+
+#image-section img {
+    width: 100%;
+    max-height: 40vh; /* Adjust the max-height here */
+}
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    #hero-section {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    #text-section,
+    #image-section {
+      width: 100%;
+    }
+  
+    #text-section {
+      order: 2;
+    }
+  
+    #image-section {
+      margin-top: 20px;
+      order: 1;
+    }
+  }
+  

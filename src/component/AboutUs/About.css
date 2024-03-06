@@ -1,0 +1,64 @@
+/* Common styles */
+.about-us-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: bisque;
+}
+
+.Photographer-name{
+  color: #ff4081; /* Adjust the color as needed */
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold;
+}
+.Photo-name {
+  color: purple; /* Adjust the color as needed */
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold;
+  /* Add some space between "Hi, I am" and the name */
+}
+
+.about-us-container {
+  flex-direction: column;
+  text-align: center;
+}
+
+.text-section {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+.image-section img {
+  margin-left: 0;
+  margin-top: 10px;
+  width: 100%;
+  border-radius: 50%; 
+  max-width: 200px; /* Adjust the size as needed */
+  height: auto;
+}
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .about-us-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .text-section {
+    margin-left: 0;
+    
+    margin-bottom: 0;
+  }
+
+  .image-section img {
+    margin-left: 0;
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 50%; 
+    max-width: 150px; /* Adjust the size as needed */
+    height: auto;
+  }
+}

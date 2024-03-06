@@ -1,0 +1,130 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #282828;
+  color: #ffffff;
+  padding-top: 03%;
+}
+
+.social{
+   margin-left: 5px;
+}
+
+.youtube{
+   color: red;
+}
+.instagram{
+    color:purple; 
+}
+.facebook{
+  color: #33a9ce;
+}
+
+.contact-form-contact{
+  color: antiquewhite;
+  position: relative;
+  width:50%;
+  overflow: hidden;
+}
+.form-field-contact input,
+.form-field-contact select,
+.form-field-contact textarea {
+  color: antiquewhite;
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.form-field-contact input[type="text"],
+.form-field-contact input[type="email"],
+.form-field-contact select {
+  color: antiquewhite;
+  background-color: #1b1b1b;
+  width: 60%;
+  padding: 10px;
+}
+
+.form-field-contact textarea {
+  color: antiquewhite;
+  background-color: #1b1b1b;
+  width: 60%;
+  resize: vertical;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form-button-contact {
+  padding: 10px;
+  background-color: black;
+  color: antiquewhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 64%;
+  padding: 10px;
+ margin-bottom: 10%;
+  
+}
+
+.contact-text{
+  text-align: left;
+  margin-left: 20%;
+}
+
+.contact-info{
+ width: 50%;
+}
+.contact-info-contact{
+  text-align: left;
+  margin-right: 70%;
+}
+.social-info-contact{
+  text-align: left;
+  margin-top: 17%;
+  margin-right: 70%;
+}
+.big-font-contact{
+  font-size: 28px;
+}
+.very-small-font-contact{
+  font-size: small;
+  margin-top: 10%;
+}
+
+.form-field-contact option{
+  color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .very-small-font-contact{
+     display: none;
+  }
+  .big-font-contact{
+    display: none;
+  }
+  .contact-form-button-contact {
+    width: 40%;
+  }
+  .contact-form-contact,
+  .contact-info,
+  .social-info-contact {
+    width: 100%;
+    text-align: center;
+  }
+  .social-info-contact{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}

@@ -1,0 +1,80 @@
+/* Navbar.css */
+.navbar {
+  background-color: black;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: beige;
+  transition: background-color 0.4s ease;
+}
+
+.scrolled {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  margin-left: 70px; /* Add left margin to the logo container */
+}
+
+.menu-container {
+  display: flex;
+  margin-right: 50px; /* Add right margin to the menu container */
+}
+
+.logo {
+  color: beige;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.photography {
+  color: #ffff00;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: beige;
+  text-decoration: none;
+  margin: 0 10px;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Styling for active link */
+.nav-link.active {
+  background-color: beige; /* Change background color of active link */
+  color: #333; /* Change text color of active link */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .logo-container {
+    margin: 0;
+  }
+
+  .menu-container {
+    margin-top: 10px;
+    margin-left: 38px;
+  }
+
+  .nav-link {
+    margin: 5px;
+  }
+}
